@@ -90,9 +90,6 @@
 
 
 
-
-
-
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -452,12 +449,14 @@
     padding: 40px 100px;
     text-align: center;
 }
-.footer-col{
+
+.footer-col {
     background-color: #384a62;
     text-align: justify;
     /* margin-top: 30px; */
 }
-.footer-col h4{
+
+.footer-col h4 {
     color: #ece8d9;
     background-color: #384a62;
     font-size: 18px;
@@ -465,16 +464,19 @@
     font-family: sans-serif;
     padding: 20px;
 }
+
 .footer-col ul {
     background-color: #384a62;
     list-style: none;
     padding: 15px;
 }
+
 .footer-col ul li {
     background-color: #384a62;
-    margin: 10px;    
+    margin: 10px;
 }
-.footer-col ul a{
+
+.footer-col ul a {
     text-decoration: none;
     background-color: #384a62;
     color: white;
@@ -482,24 +484,30 @@
     font-weight: 550;
     font-family: sans-serif;
 }
-.footer-col a{
+
+.footer-col a {
     background-color: #384a62;
 }
-.footer-col a img{
+
+.footer-col a img {
     background-color: #384a62;
     padding: 15px;
 }
-.footer-image img{
+
+.footer-image img {
     background-color: #384a62;
     width: 50%;
 }
-.footer-image{
+
+.footer-image {
     background-color: #384a62;
 }
-.last-footer{
+
+.last-footer {
     background-color: #f7f6f4;
 }
-.copyright{
+
+.copyright {
     background-color: #cbcac8;
     padding: 50px;
     text-align: center;
@@ -511,9 +519,7 @@
 
 
 
-
-. @media screen and (max-width: 768px) {
-    .body {}
+@media screen and (max-width: 768px) {
 
     .anchor a {
         display: none;
@@ -582,20 +588,39 @@
         cursor: pointer;
     }
 
-    /* .section-1 {
-        flex-direction: column;
+    .container2, .variable{
+    padding: 40px 10px;
     }
 
-    .general {
-        flex-direction: column;
-    } */
-
-    /* .overall {
-        flex-direction: column;
+    .variable h1 {
+        padding: 15px 0;
     }
 
+    .overall{
+        padding: 0px 10px;
+        display: block;
+        gap: 10px;
+    }
+    .general-1{
+        margin: 20px 0;
+    }
     .general-3{
-        flex-direction: column;
-    } */
+        display: block;
+    }
+    .diff-logos{
+        flex-direction: column; 
+        gap: 10px;
+    }
+    .footer-container{
+        display: block;
+        /* gap: 20px; */
+    }
+     /* .footer-col{
+        margin-top: 20px;
+     }
+     .footer-image img{
+        width: 100%;
+     } */
+    }
 
-}
+
